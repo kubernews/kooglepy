@@ -34,3 +34,12 @@ proxy_host = os.getenv('proxy_host')
 proxy_port = os.getenv('proxy_port')
 
 _default_proxies = f"{proxy_username}:{proxy_password}@{proxy_host}:{proxy_port}"
+
+postgresql_host = os.getenv('postgresql_host')
+postgresql_dbname = os.getenv('postgresql_dbname')
+postgresql_user = os.getenv('postgresql_user')
+postgresql_password = os.getenv('postgresql_password')
+postgresql_port = os.getenv('postgresql_port')
+
+
+table = "koogle_news"

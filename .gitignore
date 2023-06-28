@@ -151,7 +151,12 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
+python-apm
+whatap_python
+whatap.conf
+whatap_python.pid
+whatap_home
+tests
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
